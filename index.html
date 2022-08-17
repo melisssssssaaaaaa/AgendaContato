@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body>
+    <div>
+        <h2 id="titulo">Formulário de contato:</h2>
+        <p id="subtitulo">Complete suas informações!</p>
+        <br>
+    </div>
+
+    <div>
+    <fieldset>
+        <br>
+        <form>
+            <div class="campo">
+                <label for="nome"><strong>Nome Completo:</strong></label>
+                <label><input type="text" name="nome" id="nome" required></label>
+            </div>
+    
+            <div class="input-padrao">
+                <label for="Telefone"><strong>Telefone:</strong></label>
+                <label><input type="tel" id="Telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"> </label>
+            </div>
+    
+        <div class="campo">
+            <label for="email"><strong>Email:</strong></label>
+            <label><input type="email" name="email" id="email" required></label>
+        </div>
+    
+        <div class="campo">
+            <label for="Gênero"><strong>Gênero:</strong></label>
+            <select id="Gênero" required>
+              <option selected disabled value="">Selecione</option>
+              <option>Masculino</option>
+              <option>Feminino</option>
+              <option>Outros</option>
+            </select>
+        </div>
+        <label for="date"><strong>Data de Nacimento:</strong></label>
+            <input type="date" id="date" name="date" value="">        
+            <br>
+            <label for="number"><strong>Idade:</strong></label>
+            <input type="number" id="number" name="number" value=""> 
+            <br>
+            <label for="radio"><strong>Algum Parentesco:</strong></label>
+            <input type="radio" id="tipo1" name="tipo" value="1"> Sim
+            <input type="radio" id="tipo2" name="tipo" value="2"> Não
+            <br>
+            <label for="segmento"><strong>Origem do Contato:</strong></label>
+                <select name="segmento">
+                    <option value="1"></option>
+                    <option value="2">Escola</option>
+                    <option value="3">Trabalho</option>
+                    <option value="4">Amigos</option>
+                </select>
+            <br>
+            <label for="file"><strong>Adicione sua foto aqui:</strong></label>
+            <input type="file" id="file" name="file" value="">
+            <br>
+            <label for="text"><strong>Redes Sociais:</strong></label>
+            <input type="text" id="nome" name="Nome" value="">
+            <br> 
+            <br>     
+            <input type="submit" value="Salvar">
+    </form>
+    <br>
+    </fieldset>
+   
+<div>
+    <h2 id="titulo">Agenda de contatos:</h2>
+    <br>
+</div>
+
+<fieldset> 
+    <br>
+    <table border= 1>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td><a href="pagina1.html"> Patinho Magnata </a>
+        <td> (46)9988-7766 </td>
+        <td> Patuncio@outlook.com </td>
+      </tr>
+    
+      <tr>
+        <td><a href="pagina2.html"> Lana Banana</a>
+        <td> (46)9588-7366 </td>
+        <td> LanaBanana@hotmail.com </td>
+      </tr>
+    
+      <tr>
+        <td><a href="pagina3.html">Jflap o Hamster</a>
+        <td> (45)4748-0380 </td>
+        <td> Jflapohamster@gmail.com </td>
+      </tr>
+    
+      <tr>
+        <td><a href="pagina4.html">Ramires o fofo</a>
+        <td> (45)4790-0760 </td>
+        <td> ramiresfofinho@gmail.com </td>
+      </tr>
+    </table>
+<br>
+</fieldset>
+</body>
+</html>
